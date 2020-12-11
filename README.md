@@ -1,4 +1,4 @@
-# awesomeSP
+# awesomeSR
 
 
 ## Methods
@@ -46,7 +46,7 @@ python scripts/download_pretrained_models.py ESRGAN
 ```
 python inference/inference_esrgan.py \
 --model_path experiments/pretrained_models/ESRGAN/ESRGAN_SRx4_DF2KOST_official-ff704c30.pth \
---folder /home/ubuntu/data/hifacegan/Trump512 \
+--folder /home/ubuntu/data/SR/Trump512 \
 --folder_output results/esrgan/Trump512
 ```
 
@@ -116,15 +116,15 @@ git clone https://github.com/lambdal/DFDNet.git
 
 ```
 python test_FaceDict.py \
---test-dir /home/ubuntu/data/hifacegan/Trump128 \
+--test-dir /home/ubuntu/data/SR/Trump128 \
 --upscale 4
 
 python test_FaceDict.py \
---test-dir /home/ubuntu/data/hifacegan/Trump256 \
+--test-dir /home/ubuntu/data/SR/Trump256 \
 --upscale 2
 
 python test_FaceDict.py \
---test-dir /home/ubuntu/data/hifacegan/Trump512 \
+--test-dir /home/ubuntu/data/SR/Trump512 \
 --upscale 1
 ```
 
